@@ -49,6 +49,7 @@ def find(id, session):
 
 def main():
     session = connect_db()
+    print("Просьба использовать базу из того же репозитория, чтобы не было проблем с форматом даты:")    
     id = input("Введи id пользователя для поиска: ")
     find(id, session)
 

@@ -22,6 +22,7 @@ def connect_db():
     return session()
 
 def request_data():
+    print("Просьба использовать базу из того же репозитория, чтобы не было проблем с форматом даты:")    
     print("Регистрация нового пользователя:")
     first_name = input("Имя: ")
     last_name = input("Фамилию: ")
