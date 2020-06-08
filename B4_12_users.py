@@ -27,7 +27,7 @@ def request_data():
     last_name = input("Фамилию: ")
     gender = input("Пол: ")
     email = input("email: ")
-    birthdate = input("День рождения: ")
+    birthdate = input("День рождения (dd.mm.yyyy): ")
     height = input("Рост: ")
     user = User(
         first_name=first_name,
